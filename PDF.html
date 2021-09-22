@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wrapper and Container</title> 
+	<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<!--Header-->
+	<div id="header" class="wrapper fixed">
+		<div class="container">
+			<div id="logo">
+				<img src="gambar.png" alt="">
+			</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="tentang.html">Tentang</a></li>
+				<li><a href="kontak.html">Kontak</a></li>
+			</ul>
+		</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div style="height:80px;"></div>
+
+	<!--Konten-->
+	<div id="konten" class="wrapper">
+		<div class="container">
+
+			<!--Sidebar-->
+			<div class="sidebar">
+				<h3>Fitur</h3>
+				<div class="pilihan">
+					<ul>
+						<li><a href="pdf.html"> PDF</a></li>
+					</ul>
+				</div>
+				<h3>Lagu</h3>
+				<div class="musik">
+					<p>[Linked Horizon - Shinzou wo Sasageyo]</p>
+						<div>
+							<audio controls><source src="Shinzou wo sasageyo.mp3" type="audio/mp3"></audio>
+						</div>
+				</div>
+			</div>
+
+			<!--Content-->
+			<div class="content">
+				<!--Video-->
+				<div class="blog-content">
+					<h2 align="center" style="margin-top:0;">PDF</h2>
+					<embed src="BAB 1. Pengenalan Web Development.pdf"></embed>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body{
+	background: #008B8B;
+	margin: 0;
+}
+
+.fixed{
+	position: fixed;
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+#header{
+	width: 100%;
+	background-color: orange;
+	z-index: 2;
+}
+
+#logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 100%;
+}
+
+#menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	width:980px;
+}
+
+#menu li{
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#menu li a{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #34495e;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.blog-single{
+	position: relative;
+	height: 580px;
+}
+
+.blog-single img{
+	max-width: 100%;
+	width: 100%;
+	max-height: 580px;
+}
+
+.overlay{
+	position: absolute;
+	font-family: Verdana, serif;
+	text-align: center;
+	color: white;
+	justify-content: center;
+	align-items: center;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 200px 50px 0px 50px;
+}
+
+.overlay p{
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+#konten{
+	padding-top: 40px;
+	z-index: 3;
+}
+
+.sidebar{
+	width: 300px;
+	float: left;
+}
+
+.sidebar ul{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 0;
+}
+
+.sidebar li{
+	list-style: none;
+	padding: 2px;
+}
+
+.sidebar li a{
+	color: white;
+	padding: 2px;
+	padding-right: 100px;
+}
+
+.pilihan{
+	
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.musik{
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+p{
+	text-align: center;
+	color: white;
+}
+
+.content{
+	width: 800px;
+	float: right;
+	z-index: 3;
+}
+
+video{
+	padding-top: 20px;
+	padding-bottom: 57px;
+	width: 100%;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.blog-content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+h2{
+	margin-top: 0;
+	align: center;
+}
+
+embed{
+	width: 800px;
+	height: 500px;
+}
